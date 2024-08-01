@@ -114,7 +114,7 @@ header .container .links .home .hid-ul {
     position: absolute;
     background-color: var(--main-color);
     border-top: 2px solid var(--sec-color);
-    top: 100%;
+    top: calc(100% + 10px);
     width: 120px;
     left: 0;
     border-radius: 0 0 10px 10px;
@@ -514,6 +514,11 @@ header .container .get i {
     position: relative;
     bottom: -10px;
     z-index: 3;
+}
+@media (max-width: 991px) {
+    .system .container {
+        justify-content: space-between;
+    }
 }
 @media (max-width: 767px) {
     .system .container {
