@@ -332,6 +332,9 @@ header .container .get i {
         width: 100%;
         text-align: center;
     }
+    .more .text {
+        padding: 100px 20px;
+    }
 }
 /*& End More */
 
@@ -752,7 +755,7 @@ header .container .get i {
         margin: 0 0 30px;
     }
     .avail .btn {
-        padding: 15px 30px;
+        padding: 15px 20px;
     }
 }
 /*& End Available */
